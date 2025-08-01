@@ -1,0 +1,46 @@
+FeedbackID,ActivityID,SatisfactionScore,ResponseTime_Hours,EngagementQuality,NPS_Score,Comments,FeedbackDate
+FB001,ACT001,4,2,Excellent,8,Great discussion about Q1 goals,1/16/2024
+FB002,ACT003,5,4,Excellent,9,Very comprehensive survey,1/19/2024
+FB003,ACT004,3,8,Good,6,Workshop was informative but long,1/21/2024
+FB004,ACT005,4,1,Excellent,8,Quick and efficient meeting,1/25/2024
+FB005,ACT007,5,3,Excellent,9,Productive face-to-face discussion,2/3/2024
+FB006,ACT010,2,12,Fair,4,Workshop ran over time,2/13/2024
+FB007,ACT011,4,2,Good,7,Good video call quality,2/15/2024
+FB008,ACT013,5,1,Excellent,10,Very well organized meeting,2/22/2024
+FB009,ACT016,3,6,Good,5,Technical issues with video,3/4/2024
+FB010,ACT017,4,3,Good,8,Clear agenda and objectives,3/6/2024
+FB011,ACT019,5,2,Excellent,9,Excellent preparation,3/12/2024
+FB012,ACT022,4,4,Good,7,Good follow-up discussion,3/23/2024
+FB013,ACT023,3,10,Fair,5,Too much information to process,3/26/2024
+FB014,ACT025,5,1,Excellent,10,Perfect timing and content,4/1/2024
+FB015,ACT028,4,3,Good,8,Helpful and informative,4/11/2024
+FB016,ACT029,2,15,Poor,3,Technical difficulties throughout,4/14/2024
+FB017,ACT031,5,2,Excellent,9,Very engaging presentation,4/19/2024
+FB018,ACT034,4,5,Good,7,Good content but could be shorter,4/29/2024
+FB019,ACT035,3,8,Fair,6,Useful but ran late,5/2/2024
+FB020,ACT037,5,1,Excellent,10,Excellent facilitation,5/7/2024
+FB021,ACT040,4,4,Good,8,Good interaction and discussion,5/17/2024
+FB022,ACT041,3,12,Fair,5,Too many participants,5/20/2024
+FB023,ACT043,5,2,Excellent,9,Well structured and focused,5/25/2024
+FB024,ACT046,4,3,Good,7,Good use of time,6/4/2024
+FB025,ACT047,2,18,Poor,2,Major technical issues,6/7/2024
+FB026,ACT049,5,1,Excellent,10,Outstanding presentation,6/12/2024
+FB027,ACT001,4,3,Good,7,Follow-up was helpful,1/17/2024
+FB028,ACT004,4,6,Good,8,Good practical examples,1/22/2024
+FB029,ACT007,5,2,Excellent,9,Very collaborative session,2/4/2024
+FB030,ACT010,3,9,Fair,6,Could have been more focused,2/14/2024
+FB031,ACT013,4,2,Good,8,Good action items defined,2/23/2024
+FB032,ACT016,5,4,Excellent,9,Excellent knowledge sharing,3/5/2024
+FB033,ACT019,4,3,Good,7,Good participant engagement,3/13/2024
+FB034,ACT022,3,7,Fair,5,Agenda could be clearer,3/24/2024
+FB035,ACT025,5,1,Excellent,10,Perfect execution,4/2/2024
+FB036,ACT028,4,4,Good,8,Good Q&A session,4/12/2024
+FB037,ACT031,5,2,Excellent,9,Very well prepared,4/20/2024
+FB038,ACT034,3,8,Fair,6,Too rushed at the end,4/30/2024
+FB039,ACT037,4,3,Good,7,Good visual materials,5/8/2024
+FB040,ACT040,5,2,Excellent,10,Excellent interaction,5/18/2024
+FB041,ACT043,4,4,Good,8,Good summary and next steps,5/26/2024
+FB042,ACT046,3,6,Fair,5,Started late,6/5/2024
+FB043,ACT049,5,1,Excellent,9,Very professional delivery,6/13/2024
+FB044,ACT005,4,2,Good,8,Good follow-up materials,1/26/2024
+FB045,ACT011,3,5,Fair,6,Audio quality issues,2/16/2024

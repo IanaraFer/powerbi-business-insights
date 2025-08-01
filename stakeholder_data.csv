@@ -1,0 +1,21 @@
+StakeholderID,StakeholderName,Department,StakeholderType,ContactEmail,JoinDate,Region,Priority
+STK001,John Smith,HR,Internal,john.smith@company.com,1/1/2023,North America,High
+STK002,Sarah Johnson,Finance,Internal,sarah.johnson@company.com,2/15/2023,Europe,High
+STK003,Mike Chen,IT,Internal,mike.chen@company.com,3/10/2023,Asia Pacific,Medium
+STK004,Lisa Brown,Marketing,Internal,lisa.brown@company.com,4/22/2023,North America,High
+STK005,David Wilson,Operations,Internal,david.wilson@company.com,5/5/2023,Europe,Medium
+STK006,Emma Davis,Sales,External,emma.davis@partner.com,6/18/2023,North America,High
+STK007,Alex Rodriguez,Customer Service,External,alex.rodriguez@customer.com,7/30/2023,North America,Medium
+STK008,Sophie Martin,HR,Internal,sophie.martin@company.com,8/12/2023,Europe,Low
+STK009,James Taylor,Finance,Internal,james.taylor@company.com,9/25/2023,Asia Pacific,Medium
+STK010,Rachel Green,IT,Internal,rachel.green@company.com,10/8/2023,North America,High
+STK011,Tom Anderson,Marketing,Internal,tom.anderson@company.com,10/20/2023,Europe,Medium
+STK012,Maria Garcia,Operations,Internal,maria.garcia@company.com,11/5/2023,North America,High
+STK013,Kevin Lee,Sales,External,kevin.lee@partner.com,11/18/2023,Asia Pacific,High
+STK014,Amanda White,Customer Service,Internal,amanda.white@company.com,12/3/2023,Europe,Low
+STK015,Robert Kim,IT,Internal,robert.kim@company.com,12/15/2023,Asia Pacific,Medium
+STK016,Jennifer Lopez,HR,Internal,jennifer.lopez@company.com,1/8/2024,North America,High
+STK017,Mark Thompson,Finance,Internal,mark.thompson@company.com,1/22/2024,Europe,Medium
+STK018,Anna Kowalski,Marketing,Internal,anna.kowalski@company.com,2/5/2024,Europe,High
+STK019,Carlos Santos,Operations,Internal,carlos.santos@company.com,2/18/2024,North America,Medium
+STK020,Yuki Tanaka,Sales,External,yuki.tanaka@partner.com,3/3/2024,Asia Pacific,High

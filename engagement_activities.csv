@@ -1,0 +1,51 @@
+ActivityID,StakeholderID,ActivityDate,ActivityType,Channel,Duration_Minutes,Initiated_By,Status,Follow_Up_Required
+ACT001,STK001,1/15/2024,Meeting,Face-to-face,60,Internal Team,Completed,Yes
+ACT002,STK001,1/22/2024,Email,Email,0,Stakeholder,Completed,No
+ACT003,STK002,1/18/2024,Survey,Email,0,Internal Team,Completed,Yes
+ACT004,STK003,1/20/2024,Workshop,Video Call,120,Internal Team,Completed,No
+ACT005,STK004,1/25/2024,Meeting,Video Call,45,Stakeholder,Completed,Yes
+ACT006,STK005,1/28/2024,Email,Email,0,Internal Team,Completed,No
+ACT007,STK006,2/2/2024,Meeting,Face-to-face,90,Internal Team,Completed,Yes
+ACT008,STK007,2/5/2024,Survey,Email,0,Internal Team,Completed,No
+ACT009,STK008,2/8/2024,Email,Email,0,Stakeholder,Completed,No
+ACT010,STK009,2/12/2024,Workshop,Video Call,150,Internal Team,Completed,Yes
+ACT011,STK010,2/15/2024,Meeting,Video Call,30,Stakeholder,Completed,No
+ACT012,STK011,2/18/2024,Email,Email,0,Internal Team,Completed,Yes
+ACT013,STK012,2/22/2024,Meeting,Face-to-face,75,Internal Team,Completed,No
+ACT014,STK013,2/25/2024,Survey,Email,0,Internal Team,Completed,Yes
+ACT015,STK014,2/28/2024,Email,Email,0,Stakeholder,Completed,No
+ACT016,STK015,3/3/2024,Workshop,Video Call,90,Internal Team,Completed,Yes
+ACT017,STK016,3/6/2024,Meeting,Video Call,60,Stakeholder,Completed,No
+ACT018,STK017,3/9/2024,Email,Email,0,Internal Team,Completed,Yes
+ACT019,STK018,3/12/2024,Meeting,Face-to-face,45,Internal Team,Completed,No
+ACT020,STK019,3/15/2024,Survey,Email,0,Internal Team,Completed,Yes
+ACT021,STK020,3/18/2024,Email,Email,0,Stakeholder,Completed,No
+ACT022,STK001,3/22/2024,Meeting,Video Call,90,Internal Team,Completed,Yes
+ACT023,STK002,3/25/2024,Workshop,Video Call,120,Internal Team,Completed,No
+ACT024,STK003,3/28/2024,Email,Email,0,Stakeholder,Completed,Yes
+ACT025,STK004,4/1/2024,Meeting,Face-to-face,60,Internal Team,Completed,No
+ACT026,STK005,4/4/2024,Survey,Email,0,Internal Team,Completed,Yes
+ACT027,STK006,4/7/2024,Email,Email,0,Stakeholder,Completed,No
+ACT028,STK007,4/10/2024,Meeting,Video Call,75,Internal Team,Completed,Yes
+ACT029,STK008,4/13/2024,Workshop,Video Call,150,Internal Team,Completed,No
+ACT030,STK009,4/16/2024,Email,Email,0,Stakeholder,Completed,Yes
+ACT031,STK010,4/19/2024,Meeting,Face-to-face,45,Internal Team,Completed,No
+ACT032,STK011,4/22/2024,Survey,Email,0,Internal Team,Completed,Yes
+ACT033,STK012,4/25/2024,Email,Email,0,Stakeholder,Completed,No
+ACT034,STK013,4/28/2024,Meeting,Video Call,90,Internal Team,Completed,Yes
+ACT035,STK014,5/1/2024,Workshop,Video Call,120,Internal Team,Completed,No
+ACT036,STK015,5/4/2024,Email,Email,0,Stakeholder,Completed,Yes
+ACT037,STK016,5/7/2024,Meeting,Face-to-face,60,Internal Team,Completed,No
+ACT038,STK017,5/10/2024,Survey,Email,0,Internal Team,Completed,Yes
+ACT039,STK018,5/13/2024,Email,Email,0,Stakeholder,Completed,No
+ACT040,STK019,5/16/2024,Meeting,Video Call,75,Internal Team,Completed,Yes
+ACT041,STK020,5/19/2024,Workshop,Video Call,150,Internal Team,Completed,No
+ACT042,STK001,5/22/2024,Email,Email,0,Stakeholder,Completed,Yes
+ACT043,STK002,5/25/2024,Meeting,Face-to-face,45,Internal Team,Completed,No
+ACT044,STK003,5/28/2024,Survey,Email,0,Internal Team,Completed,Yes
+ACT045,STK004,5/31/2024,Email,Email,0,Stakeholder,Completed,No
+ACT046,STK005,6/3/2024,Meeting,Video Call,90,Internal Team,Completed,Yes
+ACT047,STK006,6/6/2024,Workshop,Video Call,120,Internal Team,Completed,No
+ACT048,STK007,6/9/2024,Email,Email,0,Stakeholder,Completed,Yes
+ACT049,STK008,6/12/2024,Meeting,Face-to-face,60,Internal Team,Completed,No
+ACT050,STK009,6/15/2024,Survey,Email,0,Internal Team,Completed,Yes
