@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stakeholder Engagement Dashboard - Power BI Project</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1f4e79;
+            border-bottom: 3px solid #70ad47;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #1f4e79;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #595959;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #1f4e79;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        pre {
+            background-color: #f1f3f4;
+            border: 1px solid #e1e5e9;
+            border-radius: 6px;
+            padding: 16px;
+            overflow: auto;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        code {
+            background-color: #f1f3f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', monospace;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 4px 4px 0;
+        }
+        ul, ol {
+            padding-left: 30px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .section {
+            margin-bottom: 40px;
+            page-break-after: auto;
+        }
+        .contact {
+            background-color: #e8f4fd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        @media print {
+            body { background-color: white; }
+            .container { box-shadow: none; }
+            h1, h2 { page-break-after: avoid; }
+            pre, table { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Stakeholder Engagement Dashboard – Power BI</h1>
+        
+        <div class="section">
+            <h2>Project Overview</h2>
+            <p>This Power BI dashboard provides insights into stakeholder engagement across departments and time periods. It's designed to help organizations monitor performance, identify trends, and make data-driven decisions.</p>
+            
+            <h3>Project Goals</h3>
+            <ul>
+                <li>Visualize stakeholder activity and feedback</li>
+                <li>Track KPIs like engagement frequency, satisfaction, and response time</li>
+                <li>Enable drill-through analysis for deeper insights</li>
+            </ul>
+            
+            <h3>Tools Used</h3>
+            <ul>
+                <li>Power BI Desktop</li>
+                <li>Excel (for data source simulation)</li>
+                <li>DAX for calculated metrics</li>
+                <li>GitHub for version control</li>
+            </ul>
+            
+            <h3>Skills Demonstrated</h3>
+            <ul>
+                <li>Data modeling and transformation</li>
+                <li>DAX calculations</li>
+                <li>Interactive report design</li>
+                <li>Business storytelling through visuals</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Data Structure</h2>
+            
+            <h3>Table 1: Stakeholder_Data</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Column Name</th>
+                        <th>Data Type</th>
+                        <th>Description</th>
+                        <th>Sample Values</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>StakeholderID</td><td>Text</td><td>Unique identifier</td><td>STK001, STK002, STK003</td></tr>
+                    <tr><td>StakeholderName</td><td>Text</td><td>Full name</td><td>John Smith, Sarah Johnson, Mike Chen</td></tr>
+                    <tr><td>Department</td><td>Text</td><td>Department/Division</td><td>HR, Finance, IT, Marketing, Operations</td></tr>
+                    <tr><td>StakeholderType</td><td>Text</td><td>Category of stakeholder</td><td>Internal, External, Partner, Customer</td></tr>
+                    <tr><td>ContactEmail</td><td>Text</td><td>Email address</td><td>john.smith@company.com</td></tr>
+                    <tr><td>JoinDate</td><td>Date</td><td>When they became a stakeholder</td><td>01/01/2023, 15/03/2023</td></tr>
+                    <tr><td>Region</td><td>Text</td><td>Geographic location</td><td>North America, Europe, Asia Pacific</td></tr>
+                    <tr><td>Priority</td><td>Text</td><td>Engagement priority</td><td>High, Medium, Low</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Table 2: Engagement_Activities</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Column Name</th>
+                        <th>Data Type</th>
+                        <th>Description</th>
+                        <th>Sample Values</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>ActivityID</td><td>Text</td><td>Unique activity identifier</td><td>ACT001, ACT002</td></tr>
+                    <tr><td>StakeholderID</td><td>Text</td><td>Links to Stakeholder_Data</td><td>STK001, STK002</td></tr>
+                    <tr><td>ActivityDate</td><td>Date</td><td>When activity occurred</td><td>15/01/2024, 22/02/2024</td></tr>
+                    <tr><td>ActivityType</td><td>Text</td><td>Type of engagement</td><td>Meeting, Email, Survey, Workshop</td></tr>
+                    <tr><td>Channel</td><td>Text</td><td>Communication method</td><td>Face-to-face, Video Call, Email, Phone</td></tr>
+                    <tr><td>Duration_Minutes</td><td>Number</td><td>Length of engagement</td><td>30, 60, 90, 120</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Table 3: Feedback_Scores</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Column Name</th>
+                        <th>Data Type</th>
+                        <th>Description</th>
+                        <th>Sample Values</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>FeedbackID</td><td>Text</td><td>Unique feedback identifier</td><td>FB001, FB002</td></tr>
+                    <tr><td>ActivityID</td><td>Text</td><td>Links to Engagement_Activities</td><td>ACT001, ACT002</td></tr>
+                    <tr><td>SatisfactionScore</td><td>Number</td><td>1-5 rating scale</td><td>1, 2, 3, 4, 5</td></tr>
+                    <tr><td>ResponseTime_Hours</td><td>Number</td><td>Hours to respond</td><td>2, 4, 8, 24, 48</td></tr>
+                    <tr><td>EngagementQuality</td><td>Text</td><td>Qualitative assessment</td><td>Excellent, Good, Fair, Poor</td></tr>
+                    <tr><td>NPS_Score</td><td>Number</td><td>Net Promoter Score</td><td>-100 to 100</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>DAX Calculations</h2>
+            <pre><code>// Total Stakeholders
+Total Stakeholders = DISTINCTCOUNT(Stakeholder_Data[StakeholderID])
+
+// Average Satisfaction Score
+Avg Satisfaction = AVERAGE(Feedback_Scores[SatisfactionScore])
+
+// Average Response Time
+Avg Response Time = AVERAGE(Feedback_Scores[ResponseTime_Hours])
+
+// Engagement Frequency (activities per stakeholder)
+Engagement Frequency = 
+DIVIDE(
+    COUNTROWS(Engagement_Activities),
+    DISTINCTCOUNT(Engagement_Activities[StakeholderID])
+)
+
+// Satisfaction Target Achievement
+Satisfaction Achievement = 
+VAR CurrentSat = [Avg Satisfaction]
+VAR Target = 4.0
+RETURN IF(CurrentSat >= Target, "Met", "Not Met")
+
+// Monthly Engagement Trend
+Monthly Engagement = 
+CALCULATE(
+    COUNTROWS(Engagement_Activities),
+    DATESMTD(Engagement_Activities[ActivityDate])
+)</code></pre>
+        </div>
+
+        <div class="section">
+            <h2>Dashboard Design</h2>
+            
+            <h3>Page 1: Executive Summary</h3>
+            <ul>
+                <li><strong>KPI Cards:</strong> Total Stakeholders, Average Satisfaction Score, Average Response Time, Engagement Frequency</li>
+                <li><strong>Line Chart:</strong> Engagement Trends Over Time</li>
+                <li><strong>Bar Chart:</strong> Department Engagement Comparison</li>
+                <li><strong>Donut Chart:</strong> Stakeholder Distribution</li>
+                <li><strong>Gauge Chart:</strong> Satisfaction Score vs Target</li>
+            </ul>
+
+            <h3>Page 2: Detailed Analysis</h3>
+            <ul>
+                <li><strong>Matrix Table:</strong> Stakeholder metrics</li>
+                <li><strong>Scatter Plot:</strong> Engagement Frequency vs Satisfaction Score</li>
+                <li><strong>Heat Map Calendar:</strong> Engagement activities by date</li>
+            </ul>
+
+            <h3>Filters and Slicers</h3>
+            <ul>
+                <li>Date Range Slicer</li>
+                <li>Department Dropdown</li>
+                <li>Stakeholder Type</li>
+                <li>Region</li>
+                <li>Priority Level</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Sample Data Outputs</h2>
+            
+            <div class="highlight">
+                <strong>Key Insights from Sample Data:</strong>
+                <ul>
+                    <li>Average Satisfaction Score: 4.1/5.0 (exceeds target of 4.0)</li>
+                    <li>Average Response Time: 4.8 hours (well below target of 24 hours)</li>
+                    <li>Total Stakeholders: 20 across 6 departments</li>
+                    <li>Engagement Frequency: 2.5 activities per stakeholder</li>
+                    <li>Most Active Department: IT and HR</li>
+                    <li>Preferred Communication: Video Calls (45% of activities)</li>
+                </ul>
+            </div>
+
+            <h3>Performance Against Targets</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>KPI</th>
+                        <th>Target</th>
+                        <th>Actual</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Satisfaction Score</td><td>4.0</td><td>4.1</td><td style="color: #70ad47;">✓ Met</td></tr>
+                    <tr><td>Response Time (hours)</td><td>24</td><td>4.8</td><td style="color: #70ad47;">✓ Exceeded</td></tr>
+                    <tr><td>Engagement Frequency</td><td>2.5</td><td>2.5</td><td style="color: #70ad47;">✓ Met</td></tr>
+                    <tr><td>NPS Score</td><td>7</td><td>7.2</td><td style="color: #70ad47;">✓ Exceeded</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Information</h2>
+            <p>If you're a company looking for a data-driven professional with a healthcare and education background, feel free to reach out!</p>
+            <p>📧 <strong>Email:</strong> ianarafer@gmail.com</p>
+            <p>🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ianarafernandes/">linkedin.com/in/ianarafernandes/</a></p>
+        </div>
+    </div>
+</body>
+</html>
